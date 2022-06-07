@@ -88,6 +88,14 @@ gecko_sdk_4.0.2/app/bluetooth/common/ota_dfu/sl_ota_dfu.o: \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sli_bt_gattdb_def.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\app\common\util\app_assert\app_assert.h \
  C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/app_assert_config.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\app\common\util\app_log\app_log.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
+ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_iostream_handles.h \
+ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_iostream_init_usart_instances.h \
+ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_component_catalog.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_uart.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
+ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/app_log_config.h \
  C\:/Users/nicol/SimplicityStudio/SDKs/gecko_sdk/app/bluetooth/common/ota_dfu/sl_ota_dfu.h
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_bluetooth.h:
@@ -177,4 +185,12 @@ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/gatt_db.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sli_bt_gattdb_def.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\app\common\util\app_assert\app_assert.h:
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/app_assert_config.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\app\common\util\app_log\app_log.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
+C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_iostream_handles.h:
+C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_iostream_init_usart_instances.h:
+C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_component_catalog.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_uart.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
+C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/app_log_config.h:
 C\:/Users/nicol/SimplicityStudio/SDKs/gecko_sdk/app/bluetooth/common/ota_dfu/sl_ota_dfu.h:

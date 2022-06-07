@@ -82,7 +82,12 @@ autogen/sl_power_manager_handler.o: ../autogen/sl_power_manager_handler.c \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sl_bt_api.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sl_bgapi.h \
- c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sl_bt_api_compatibility.h
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sl_bt_api_compatibility.h \
+ ../autogen/sl_iostream_init_usart_instances.h \
+ ../autogen/sl_component_catalog.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_uart.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg12p\include\em_device.h:
@@ -167,3 +172,8 @@ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\r
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sl_bt_api.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sl_bgapi.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sl_bt_api_compatibility.h:
+../autogen/sl_iostream_init_usart_instances.h:
+../autogen/sl_component_catalog.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_uart.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:

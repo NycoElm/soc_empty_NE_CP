@@ -60,7 +60,12 @@ app.o: ../app.c \
  C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_component_catalog.h \
  C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/app_assert_config.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
- C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_bluetooth.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\app\common\util\app_log\app_log.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
+ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_iostream_handles.h \
+ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_iostream_init_usart_instances.h \
+ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_component_catalog.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\power_manager\inc\sl_power_manager.h \
  C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_power_manager_config.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
@@ -69,10 +74,13 @@ app.o: ../app.c \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h \
  C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_sleeptimer_config.h \
- c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_emu.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_uart.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
+ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/app_log_config.h \
+ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_bluetooth.h \
  C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_bluetooth_config.h \
  C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_bluetooth_connection_config.h \
  C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_bluetooth_advertiser_config.h \
@@ -88,7 +96,9 @@ app.o: ../app.c \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sl_bt_api_compatibility.h \
  C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/gatt_db.h \
  c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sli_bt_gattdb_def.h \
- ../app.h
+ ../app.h \
+ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\app\bluetooth\common\sensor_rht\sl_sensor_rht.h \
+ ../temperature.h
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_common.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg12p\include\em_device.h:
@@ -150,7 +160,12 @@ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\app\common\util\app_assert\app_a
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_component_catalog.h:
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/app_assert_config.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
-C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_bluetooth.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\app\common\util\app_log\app_log.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
+C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_iostream_handles.h:
+C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_iostream_init_usart_instances.h:
+C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_component_catalog.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\power_manager\inc\sl_power_manager.h:
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_power_manager_config.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
@@ -159,10 +174,13 @@ C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/emlib_core_
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h:
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_sleeptimer_config.h:
-c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_emu.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_uart.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
+C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/app_log_config.h:
+C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/sl_bluetooth.h:
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_bluetooth_config.h:
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_bluetooth_connection_config.h:
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\config/sl_bluetooth_advertiser_config.h:
@@ -179,3 +197,5 @@ c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sl_bt_api
 C\:\Users\nicol\SimplicityStudio\v5_workspace\soc_empty_NE_PC\autogen/gatt_db.h:
 c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\protocol\bluetooth\inc\sli_bt_gattdb_def.h:
 ../app.h:
+c\:\users\nicol\simplicitystudio\sdks\gecko_sdk\app\bluetooth\common\sensor_rht\sl_sensor_rht.h:
+../temperature.h:
